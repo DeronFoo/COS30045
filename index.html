@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Using D3 generated SVGs to draw a bar chart populated from an CSV file -->
+	<title>Task 2.4 D3 Data Import</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Data Visualisation Exercise 7">
+	<meta name="keywords" content="HTML, CSS, D3, Data Import">
+	<meta name="author" content="Deron Foo">
+	<!-- Set the device's screen-width as page width & zoom level to 100% initially -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="https://d3js.org/d3.v6.min.js"></script><!-- Add reference to the D3 library in header -->
+    <style>
+        figcaption {
+            font-style: italic;
+            color: black;
+            margin: -10px 0 0 80px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+	<h1>Drawing with Data - Bar Charts</h1>
+    <!-- Figure and caption -->
+    <figure>
+        <div id="chart1"></div> <!-- Container for SVG -->
+        <figcaption>
+            Figure 1: A bar chart showing the number of wombat sightings in various locations.
+        </figcaption>
+    </figure>
+    <figure>
+        <div id="chart2"></div>
+        <figcaption>
+            Figure 2: A bar chart showing the pet ownership in 2019.
+        </figcaption>
+    </figure>
+    <figure>
+        <div id="chart3"></div>
+        <figcaption>
+            Figure 3: A bar chart showing the pet ownwership in 2021.
+        </figcaption>
+    </figure>
+	<footer style="color: grey;">COS30045 Data Visualisation<br>Deron Foo</footer>
+    <script src="Task2.4.js"></script>
+</body>
+</html>
