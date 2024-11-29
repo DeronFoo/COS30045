@@ -1,0 +1,132 @@
+Country,Region,PollutionIndex,Flags
+India,Asia,487,🇮🇳
+Germany,Europe,341,🇩🇪
+Netherlands,Europe,270,🇳🇱
+China,Asia,211,🇨🇳
+Pakistan,Asia,179,🇵🇰
+Uganda,Africa,175,🇺🇬
+Chad,Africa,165,🇹🇩
+Egypt,Africa,161,🇪🇬
+Turkey,Europe,156,🇹🇷
+Congo,Africa,155,🇨🇩
+Tajikistan,Asia,154,🇹🇯
+Guinea,Africa,153,🇬🇳
+Madagascar,Africa,137,🇲🇬
+Indonesia,Southeast Asia,134,🇮🇩
+Iran,Asia,132,🇮🇷
+Serbia,Europe,126,🇷🇸
+Nigeria,Africa,125,🇳🇬
+Palestine,Asia,125,🇵🇸
+Bahrain,Asia,124,🇧🇭
+Mexico,America,116,🇲🇽
+Belgium,Europe,116,🇧🇪
+Armenia,Asia,112,🇦🇲
+France,Europe,111,🇫🇷
+United Arab Emirates,Asia,110,🇦🇪
+Poland,Europe,110,🇵🇱
+Uzbekistan,Asia,109,🇺🇿
+Ecuador,America,108,🇪🇨
+Ghana,Africa,106,🇬🇭
+Thailand,Southeast Asia,101,🇹🇭
+Iraq,Asia,101,🇮🇶
+Georgia,Europe,100,🇬🇪
+Macedonia,Europe,100,🇲🇰
+Macao,Asia,99,🇲🇴
+Slovakia,Europe,97,🇸🇰
+Nepal,Asia,96,🇳🇵
+United Kingdom,Europe,95,🇬🇧
+Kuwait,Asia,94,🇰🇼
+Italy,Europe,94,🇮🇹
+Romania,Europe,93,🇷🇴
+Philippines,Southeast Asia,91,🇵🇭
+Rwanda,Africa,88,🇷🇼
+Morocco,Africa,86,🇲🇦
+Taiwan,Asia,84,🇹🇼
+Hungary,Europe,84,🇭🇺
+Japan,Asia,83,🇯🇵
+Vietnam,Southeast Asia,83,🇻🇳
+United States,America,82,🇺🇸
+Bangladesh,Asia,82,🇧🇩
+Hong Kong,Asia,79,🇭🇰
+Sri Lanka,Asia,77,🇱🇰
+San Marino,Europe,76,🇸🇲
+Cambodia,Southeast Asia,76,🇰🇭
+South Korea,Asia,76,🇰🇷
+Ethiopia,Africa,76,🇪🇹
+Bosnia and Herzegovina,Europe,75,🇧🇦
+Monaco,Europe,73,🇲🇨
+Slovenia,Europe,73,🇸🇮
+Laos,Southeast Asia,72,🇱🇦
+Austria,Europe,70,🇦🇹
+Russian Federation,Europe,70,🇷🇺
+Czechia,Europe,69,🇨🇿
+Myanmar,Southeast Asia,69,🇲🇲
+Croatia,Europe,68,🇭🇷
+Ukraine,Europe,68,🇺🇦
+Israel,Asia,68,🇮🇱
+Ireland,Europe,68,🇮🇪
+Greece,Europe,67,🇬🇷
+Kyrgyzstan,Asia,67,🇰🇬
+South Africa,Africa,67,🇿🇦
+Kazakhstan,Asia,66,🇰🇿
+Bulgaria,Europe,66,🇧🇬
+Cyprus,Europe,63,🇨🇾
+Holy See,Europe,63,🇻🇦
+Malaysia,Southeast Asia,61,🇲🇾
+Switzerland,Europe,62,🇨🇭
+Cabo Verde,Africa,58,🇨🇻
+Montenegro,Europe,57,🇲🇪
+Mongolia,Asia,57,🇲🇳
+Peru,America,56,🇵🇪
+Martinique,America,56,🇲🇶
+Sweden,Europe,56,🇸🇪
+Iceland,Europe,56,🇮🇸
+Chile,America,55,🇨🇱
+Mayotte,Africa,55,🇾🇹
+Spain,Europe,53,🇪🇸
+Luxembourg,Europe,51,🇱🇺
+Guatemala,America,50,🇬🇹
+Belarus,Europe,49,🇧🇾
+Saint Martin,America,47,🇲🇫
+Albania,Europe,44,🇦🇱
+Colombia,America,42,🇨🇴
+Kenya,Africa,42,🇰🇪
+Curaçao,America,42,🇨🇼
+Australia,Oceania,41,🇦🇺
+Kosovo,Europe,40,🇽🇰
+Paraguay,America,40,🇵🇾
+Singapore,Southeast Asia,36,🇸🇬
+Gibraltar,Europe,35,🇬🇮
+Guadeloupe,America,35,🇬🇵
+Costa Rica,America,35,🇨🇷
+Turkmenistan,Asia,34,🇹🇲
+Brazil,America,34,🇧🇷
+Malta,Europe,33,🇲🇹
+Norway,Europe,33,🇳🇴
+Liberia,Africa,32,🇱🇷
+Canada,America,31,🇨🇦
+New Zealand,Oceania,31,🇳🇿
+Jordan,Asia,30,🇯🇴
+Azerbaijan,Asia,30,🇦🇿
+Trinidad and Tobago,America,26,🇹🇹
+Dominican Republic,America,26,🇩🇴
+Portugal,Europe,23,🇵🇹
+New Caledonia,Oceania,17,🇳🇨
+French Guiana,America,17,🇬🇫
+Jersey,Europe,16,🇯🇪
+Finland,Europe,15,🇫🇮
+Liechtenstein,Europe,15,🇱🇮
+Réunion,Africa,15,🇷🇪
+Mozambique,Africa,14,🇲🇿
+Andorra,Europe,13,🇦🇩
+Seychelles,Africa,12,🇸🇨
+Estonia,Europe,11,🇪🇪
+Moldova,Europe,11,🇲🇩
+Bonaire,America,11,🇧🇶
+Brunei Darussalam,Southeast Asia,10,🇧🇳
+Lithuania,Europe,9,🇱🇹
+Argentina,America,8,🇦🇷
+Denmark,Europe,6,🇩🇰
+Latvia,Europe,6,🇱🇻
+Aruba,America,4,🇦🇼
+Venezuela,America,2,🇻🇪
