@@ -1,0 +1,824 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+/*******************************    ~ GENERAL DOCUMENT STYLING ~    *******************************/
+body {
+    background: linear-gradient(180deg, #d7f7fc, #cde9f7); 
+    font-family: 'Poppins', sans-serif;
+    padding: 0; margin: 0;
+    caret-color: transparent;
+    overflow: hidden;
+}
+/*******************************    ~ NAVIGATIONAL SIDEBAR ~    *******************************/
+.sidenav {
+    background-color: #b6e8f0;
+    height: 100vh; width: 100%;
+    max-width: 350px;
+    position: fixed;
+    top: 0; right: -350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8rem;
+    transition: .3s ease;
+    z-index: 1000; 
+}
+a { color: #45afe4; text-decoration: none; }
+a:hover { text-decoration: underline; font-weight: bold; }
+.sidenav.active { right: 0; }
+.sidenav a { color: black;}
+.sidenav a:visited { color: black; }
+.sidenav ul { list-style-type: none; }
+nav {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed; 
+    top: 20px; right: 20px; 
+    z-index: 1001; 
+}
+.ham_menu {
+    height: 50px; width: 40px;
+    position: relative;
+    cursor: pointer;
+}
+.ham_menu span {
+    height: 5px; width: 100%;
+    background-color: black;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+.ham_menu span:nth-child(1) { top: 25%; }
+.ham_menu span:nth-child(3) { top: 75%; }
+.ham_menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham_menu.active span:nth-child(2) { opacity: 0; }
+.ham_menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+#container {
+    scroll-snap-type: y mandatory; 
+    overflow-y: scroll;
+    height: 100vh;
+}
+section {
+    height: 100vh;
+    position: relative;
+    place-items: center;
+    align-content: center;
+    text-align: center;
+    display: grid;
+    scroll-snap-align: start;
+}
+/*******************************    ~ MAIN PAGE ~    *******************************/
+section#home #background{
+    position: absolute;
+    opacity: 0.3;
+    width: 50vw; max-width: 100%;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(0.3px);
+    z-index: -1; 
+}
+section#home h1 {
+    font-size: 40px;
+    margin: 0;
+}
+section#home h2, section#goals h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+section#home p { font-size: 20px; }
+section#home p#scroll {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+section#home #scroll_arrow {
+    width: 30px;
+    margin: none;
+    transition: transform 0.3s ease-in-out;
+}
+#scroll_arrow, #scroll { animation: scrollMove 1s infinite alternate; }
+@keyframes scrollMove {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(10px); }
+}
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+@media(prefers-reduced-motion) {
+    .hidden { transition: none; }
+}
+/*******************************    ~ BACKGROUND CONTEXT PAGE ~    *******************************/
+section#context h1, section#goals h1, section#global h1,
+section#factor h1, section#exposure h1 {
+    font-size: 30px;
+    margin: 0;
+}
+section#context p{
+    width: 40vw;
+    text-align: justify;
+}
+section#context img {
+    width: 45vw;
+    position: absolute;
+    opacity: 0.8;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+}
+section#context div {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 1rem;
+    border-radius: 8px;
+}
+section#context div a {
+    color: #45afe4;
+    font-weight: bold;
+}
+section#context div a:hover {
+    text-decoration: underline;
+}
+/*******************************    ~ AIMS & OBJECTIVES PAGE ~    *******************************/
+section#goals {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+}
+section#goals p {
+    line-height: 1.6;
+    width: 50vw;
+    text-align: justify;
+}
+section#goals ul {
+    list-style: none;
+    padding-left: 0;
+}
+section#goals ul li {
+    text-align: justify;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+section#goals ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0; top: 0;
+}
+/*******************************    ~ BUBBLE CHART PAGE ~    *******************************/
+section#global { padding: 0 20px; }
+.flexor { display: flex; }
+section#global h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+#bubble_section {
+    position: relative;
+    width: 55%; height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+div.insight {
+    position: absolute;
+    top: 10px; right: 40px;
+}
+div.insight img { width: 40px; cursor: pointer; }
+div.insight img:hover { width: 43px; height: 43px; }
+.modal {/* Style for the modal (pop-up) */
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0; top: 0;
+    width: 100%; /* Full width */
+    height: 92vh; /* Full height */
+    background-color: rgb(0, 0, 0, 0.4); /* Fallback color */
+    padding-top: 60px;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    text-align: justify; 
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.tooltip {
+    width: 200px;
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    pointer-events: none;
+    padding: 8px;
+    text-align: center;
+    position: absolute;
+}
+.tooltip-header h3 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tooltip-content { margin-top: 8px; }
+.tooltip-aqi {
+    font-size: 16px;
+    font-weight: bold;
+} 
+.tooltip-status {
+    font-size: 14px;
+    margin-top: 4px;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
+.tooltip-date {
+    font-size: 12px;
+    margin-top: 6px;
+    color: #666;
+}
+#info_section {
+    font-size: 14px;
+    width: 45%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+    /* border: 1px solid black; */
+}
+#info_section h3 { text-align: center; margin-bottom: -10px;}
+.info-row {
+    display: flex;
+    gap: 10px;
+}
+.info-box {
+    padding: 0 10px;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+}
+.small-box { flex: 1; }
+.large-row {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+.wide-box { width: 90%; }
+.scrollable-box {
+    flex: 1;
+    height: 100%;
+}
+.scrollable { 
+    overflow-y: auto; 
+    position: relative;
+    top: 20px;
+    height: 70%;
+    min-width: 250px;
+}
+#region-filter {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+#region-filter label { cursor: pointer; margin-right: 10px; }
+/*******************************    ~ CHOROPLETH PAGE ~    *******************************/
+#choropleth {
+    display: inline-block;
+    position: relative;
+    border: 1px solid rgb(108, 154, 194);
+    background-color: rgb(194, 221, 245);
+}
+.control {
+    /* border: 1px solid black; */
+    width: 800px;
+    position: relative; 
+}
+.control .insight {
+    position: absolute;
+    top: 15px; 
+    right: 35px; 
+}
+.control p { font-size: 20px; }
+.control p>p { top: -8px; }
+.control input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 400px; height: 12px;
+    background: red;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.control input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgb(117, 29, 29);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.control input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: rgb(117, 29, 29);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+button#playButton {
+    background-color: red;
+    font-size: 16px;
+    margin-left: 25px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button#playButton:hover { background-color: rgb(117, 29, 29); }
+button#playButton:active { background-color: rgb(117, 29, 29); }
+.control p  { 
+    font-size: 18px;
+    margin: 0;
+}
+.control strong label#yearLabel { color: red; }
+section#exposure { overflow-x: hidden; overflow-y: hidden; }
+section#exposure .flexor {
+    width: 100%; height: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+#choropleth_section {
+    position: relative;
+    width: 730px; height: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section#exposure #info_section {
+    font-size: 14px;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+section#exposure #info_section h3 { margin: 15px 0px -15px 0px;}
+section#exposure .info-row { width: 92%; }
+section#exposure .scrollable { 
+    overflow-y: auto; 
+    position: relative;
+    top: 20px;
+    height: 100%;
+}
+section#exposure #avgDaly { 
+    margin: 18px 0 -18px 0; 
+    position: relative;
+    text-align: center;
+}
+section#exposure .info-row {
+    display: flex;
+    gap: 10px;
+    /* border: solid 2px black; */
+}
+section#exposure .info-box {
+    padding: 0 10px;
+    height: 80%;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+}
+section#exposure .wide-box { width: 95%; }
+section#exposure .large-row {
+    /* border: solid 1px black; */
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    height: 180px;
+}
+section#exposure .scrollable-box { height: 100%; }
+#pieChartContainer {
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    width: 100%; height: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*******************************    ~ LINE GRAPH ~    *******************************/
+#disease-container { overflow-x: hidden; }
+.line {
+    fill: none;
+    stroke-width: 2;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.line_tooltip {
+    position: absolute;
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 10px;
+    font-size: 12px;
+    pointer-events: none;
+    opacity: 0;
+}
+section#disease1, section#disease2 { 
+    /* border: 1px solid black;  */
+    height: 86vh;
+    width: 100vw;
+    
+} 
+#linegraph {
+    /* border: 1px solid black;  */
+    margin: 0 auto;
+    width: 950px;
+    background-color: #f2f2f2;
+    /* border: 1px solid black;  */
+}
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+    position: relative;
+    padding-right: 50px;
+}
+.tab-btn1, .tab-btn2, #SEA_overview {
+    position: relative;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.tab-btn1.active, .tab-btn2.active, #SEA_overview:hover {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.tab-content1, .tab-content2 { display: none; }
+.tab-content1.active, .tab-content2.active { display: block; }
+.tab-buttons .insight {
+    position: absolute;
+    top: 0; right: 0; 
+}
+/*******************************    ~ RADAR CHART ~    *******************************/
+#death-container { overflow-x: hidden; }
+section#death1, section#death2 { 
+    /* border: 1px solid black;  */
+    height: 86vh;
+    width: 100vw;
+} 
+
+#disease2 h2 { margin: 0; }
+#radar_dropdown {
+    margin: 0 auto; 
+    /* border: 1px solid black; */
+    padding: 0;
+
+}
+#radar_dropdown p {
+    padding: 0;
+    margin: 0;
+}
+#radar_content {
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    justify-content: flex-start; /* Align chart to the left */
+    padding: 0;
+}
+
+#disease_SEA_chart{
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#disease_SEA_chart .radar_chart_grid_line{
+    stroke: #d3d3d3;
+    stroke-dasharray: 3;
+    opacity: 0.6;
+}
+
+#disease_SEA_chart .radar_chart_axis_line{
+    stroke: #bbb;
+    stroke-width: 1;
+}
+
+#disease_SEA_chart .radar_chart_axis_label{
+    font-size: 12px;
+    font-weight: bold;
+    fill: #333;
+}
+
+#disease_SEA_chart .radar_chart_polygon{
+    transition: fill-opacity 0.3s ease;
+}
+
+#disease_SEA_chart .radar_chart_marker{
+    stroke: white;
+    stroke-width: 1.5;
+    opacity: 0.8;
+}
+
+#disease_SEA_chart .radar_chart_legend_text{
+    font-size:12px;
+    fill:#333;
+}
+
+#disease_SEA_chart .radar_chart_marker {
+    cursor: pointer;
+    transition: r 0.2s, fill 0.2s;
+}
+
+#disease_SEA_dropdown{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    appearance: none; /* Removes default browser styling */
+    outline: none; /* Removes blue border on focus */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Hover and focus effects */
+#disease_SEA_dropdown:hover { background-color: #e2e6ea; }
+#disease_SEA_dropdown:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 91, 187, 0.5);
+}
+
+/* Styling dropdown options */
+#disease_SEA_dropdown option {
+    font-size: 14px;
+    color: #333;
+}
+
+
+/* Styling for the buttons */
+#download_data_btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Default chart container - centered */
+#disease_SEA_chart_container {
+    display: flex;
+    justify-content: center; /* Centers the chart horizontally */
+    align-items: center; /* Centers the chart vertically */
+    padding: 0;
+    height: 550px;
+    /* border: 1px solid black; */
+}
+/* Table container styles */
+#disease_SEA_table_container {
+    padding-top: 20px;
+    width: 450px; height: 550px;
+    margin-left: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center; /* Centers the chart horizontally */
+    align-items: center; /* Centers the chart vertically */
+}
+#data_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data_table th, #data_table td {
+    text-align: left;
+    padding: 8px;
+    /* border: 1px solid black; */
+    background-color: #f8f9fa;
+}
+#data_table th {
+    background-color: #cfd0d0;
+}
+/*******************************    ~ TREEMAP ~    *******************************/
+.node {
+    border: solid 1px #fff;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+.node:hover {
+    opacity: 0.8;
+}
+.treemap {
+    font-family: Arial, sans-serif;
+}
+.node text {
+    pointer-events: none;
+}
+/* Legend Styling */
+#death_factor_legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+    margin-right: 15px;
+}
+#death_factor_legend .legend-item {
+    display: flex;
+    align-items: center;
+}
+#death_factor_legend .legend-color {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+/* Tooltip Styling */
+.tooltips {
+    position: absolute;
+    pointer-events: none;
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    font-family: Arial, sans-serif;
+    max-width: 200px;
+}
+.tooltips h4 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+.tooltips p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+#death_factor_chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#death_rate_SEA_chart { background-color: #f7f7f7; }
+#death_factor_chart svg {
+    border: 1px solid #ccc; /* Optional border for visualization */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional shadow */
+    padding:2%;
+    margin: 1%;
+}
+#death_factor_phrase {
+    font-size: 1em;
+    font-weight: bold;
+    color: #d9534f; /* A reddish color to indicate danger */
+    background-color: #f8d7da; /* Light red background */
+    border: 1px solid #f5c6cb; /* Matching border color */
+    padding: 15px 0;
+    margin: 15px auto;
+    width: 65%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*******************************    ~ Stacked Bar Charts ~    *******************************/
+#factor .insight {
+    position: absolute;
+    top: 50px;
+    right: 230px;
+}
+/* Dropdown styling */
+#sea-dropdown {
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Tab styles */
+#tabs div {
+    transition: background-color 0.3s ease;
+}
+#tabs div:hover {
+    background-color: #ddd;
+}
+#pollution_source_chart svg {
+    border: 1px solid #ccc; /* Add a light border around the chart */
+    border-radius: 8px; /* Rounded corners for a smoother look */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    background-color: #f7f7f7; /* Subtle background color */
+}
+/* Group styling for stacked bars */
+#pollution_source_chart svg g {
+    opacity: 0.85; /* Slightly transparent to give a layered look */
+    transition: opacity 0.2s ease-in-out; /* Smooth transition on hover */
+}
+/* Bar color based on region */
+#pollution_source_chart svg rect {
+    transition: fill 0.3s ease; /* Smooth color transition */
+}
+/* Group styling for stacked bars */
+#pollution_source_chart svg g {
+    opacity: 0.85; /* Slightly transparent to give a layered look */
+    transition: opacity 0.2s ease-in-out; /* Smooth transition on hover */
+}
+/* Hover effects for bars */
+#pollution_source_chart svg rect:hover {
+    opacity: 1; /* Make the bar fully opaque on hover */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: opacity 0.3s, transform 0.3s ease-in-out; /* Smooth transition */
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.5)); /* Glow effect */
+}
+/* Hover effect to brighten the whole group */
+#pollution_source_chart svg g:hover {
+    opacity: 1; /* Make the whole stack brighter on hover */
+}
+/*******************************    ~ Footer ~    *******************************/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+footer .left { margin-left: 10px; }
+footer .right { margin-right: 40px; }
+
+footer .right a { 
+    text-decoration: none; 
+    color: black;
+}
+footer .right a:hover { 
+    font-weight: normal; 
+    text-decoration: underline; 
+}
+
+
+
+
+
+
+
+
+
+

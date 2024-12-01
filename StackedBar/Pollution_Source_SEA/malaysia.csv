@@ -1,0 +1,16 @@
+﻿Sector,Value
+Energy,12.1
+Residential,14.2
+Industry,4.9
+Transport,16.9
+Waste,5.8
+Agriculture,3.3
+Agr. Waste Burning,0.5
+Other Fires,4
+Windblown Dust,0.9
+Shipping,2.6
+Anthropogenic dust,16.8
+Commercial,0.7
+Solvents,0.1
+Other Combustion,0.9
+Remaining Sources,16.2

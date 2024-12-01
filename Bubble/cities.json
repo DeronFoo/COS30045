@@ -1,0 +1,1152 @@
+{
+    "India": {
+        "cities": [
+            ["Āsansol", 718],
+            ["Saugor", 570],
+            ["Nāngloi Jāt", 542],
+            ["Delhi", 538],
+            ["Deoli", 493],
+            ["Loni", 467],
+            ["New Delhi", 462],
+            ["Bawāna", 450]
+        ]
+    },
+    "Germany": {
+        "cities": [
+            ["Straelen", 500],
+            ["Penzberg", 500],
+            ["Wetter (Ruhr)", 500],
+            ["Bad Oldesloe", 405],
+            ["Freiberg am Neckar", 330],
+            ["Brakel", 166],
+            ["Burgdorf", 156],
+            ["Schmelz", 152]
+        ]
+    },
+    "Netherlands": {
+        "cities": [
+            ["Putten", 500],
+            ["Oisterwijk", 500],
+            ["Loon op Zand", 500],
+            ["Geleen", 70],
+            ["Hellevoetsluis", 69],
+            ["Heerlen", 63],
+            ["Geldrop", 62],
+            ["Maastricht", 59]
+        ]
+    },
+    "China": {
+        "cities": [
+            ["Fendou", 281],
+            ["Suihua", 279],
+            ["Longfeng", 248],
+            ["Qiqihar", 234],
+            ["Jingmen", 197],
+            ["Shuangyashan", 184],
+            ["Yanggu", 184],
+            ["Huainan", 179]
+        ]
+    },
+    "Pakistan": {
+        "cities": [
+            ["Sharqpur Sharif", 467],
+            ["Lahore", 395],
+            ["Peshawar", 212],
+            ["Islamabad", 185],
+            ["Rawalpindi", 182],
+            ["Karachi", 144],
+            ["Murree", 98]
+        ]
+    },
+    "Uganda": {
+        "cities": [
+            ["Kampala", 114]
+        ]
+    },
+    "Chad": {
+        "cities": [
+            ["N'Djamena", 70]
+        ]
+    },
+    "Egypt": {
+        "cities": [
+            ["Cairo", 13]
+        ]
+    },
+    "Turkey": {
+        "cities": [
+            ["Iğdır", 184],
+            ["Düzce", 163],
+            ["Yalova", 161],
+            ["Konya", 160],
+            ["Kemalpaşa", 157],
+            ["Çorum", 156],
+            ["Erzurum", 156],
+            ["Gürsu", 154]
+        ]
+    }, 
+    "Congo": {
+        "cities": [
+            ["Kinshasa", 82]
+        ]
+    },
+    "Tajikistan": {
+        "cities": [
+            ["Dushanbe", 78]
+        ]
+    },
+    "Guinea": {
+        "cities": [
+            ["Conakry", 153]
+        ]
+    },
+    "Madagascar": {
+        "cities": [
+            ["Antananarivo", 176]
+        ]
+    },
+    "Indonesia": {
+        "cities": [
+            ["Sepatan", 177],
+            ["Serpong", 166],
+            ["Depok", 163],
+            ["Bekasi", 163],
+            ["Cibinong", 160],
+            ["Jakarta", 157],
+            ["Gresik", 156],
+            ["Melati", 155]
+        ]
+    },
+    "Iran": {
+        "cities": [
+            ["Zarand", 267],
+            ["Khomeynī Shahr", 138],
+            ["Rāvar", 136],
+            ["Masjed Soleymān", 133],
+            ["Ahvaz", 104],
+            ["Shūshtar", 103],
+            ["Rāmhormoz", 92],
+            ["Zahedan", 92]
+        ]
+    },
+    "Serbia": {
+        "cities": [
+            ["Zaječar", 152],
+            ["Leskovac", 148],
+            ["Vrbas", 124],
+            ["Jagodina", 121],
+            ["Negotin", 113],
+            ["Novi Pazar", 111],
+            ["Kruševac", 108],
+            ["Senta", 106]
+        ]
+    },
+    "Nigeria": {
+        "cities": [
+            ["Lagos", 171],
+            ["Abuja", 79],
+            ["Calabar", 56]
+        ]
+    },
+    "Palestine": {
+        "cities": [
+            ["Qalqīlyah", 420],
+            ["Bayt Ḩānūn", 63],
+            ["Ḩalḩūl", 42],
+            ["Az̧ Z̧āhirīyah", 2]
+        ]
+    },
+    "Bahrain": {
+        "cities": [
+            ["Manama", 112]
+        ]
+    },
+    "Mexico": {
+        "cities": [
+            ["Mexicali", 197],
+            ["Victoria de Durango", 188],
+            ["Cuautlancingo", 147],
+            ["Hacienda Santa Fe", 136],
+            ["Morelia", 112],
+            ["San Pedro Garza García", 109],
+            ["San Nicolás de los Garza", 109],
+            ["Monterrey", 105]
+        ]
+    },
+    "Belgium": {
+        "cities": [
+            ["Wavre", 500],
+            ["Beersel", 197],
+            ["Tielt", 89],
+            ["Mons", 87],
+            ["Torhout", 74],
+            ["Pont-à-Celles", 73],
+            ["Charleroi", 72],
+            ["Liège", 72]
+        ]
+    },
+    "Armenia": {
+        "cities": [
+            ["Masis", 168],
+            ["Ararat", 157],
+            ["Gyumri", 82],
+            ["Vanadzor", 52]
+        ]
+    },
+    "France": {
+        "cities": [
+            ["Palaiseau", 129],
+            ["Gentilly", 115],
+            ["La Garenne-Colombes", 115],
+            ["Creil", 112],
+            ["Lagny-sur-Marne", 112],
+            ["Beauvais", 112],
+            ["Saint-Avertin", 109],
+            ["Colombes", 104]
+        ]
+    },
+    "United Arab Emirates": {
+        "cities": [
+            ["Ajman City", 151],
+            ["Bani Yas City", 139],
+            ["Ras Al Khaimah City", 132],
+            ["Abu Dhabi", 128],
+            ["Musaffah", 111],
+            ["Dibba Al-Fujairah", 102],
+            ["Zayed City", 101],
+            ["Al Ain City", 93]
+        ]
+    },
+    "Poland": {
+        "cities": [
+            ["Łuków", 150],
+            ["Rydułtowy", 123],
+            ["Radzionków", 115],
+            ["Bytom", 105],
+            ["Ostrołęka", 101],
+            ["Łowicz", 98],
+            ["Świętochłowice", 94],
+            ["Mikołów", 94]
+        ]
+    },
+    "Uzbekistan": {
+        "cities": [
+            ["Tashkent", 122]
+        ]
+    },
+    "Ecuador": {
+        "cities": [
+            ["Cuenca", 151],
+            ["Tutamandahostel", 104],
+            ["Quito", 82]
+        ]
+    },
+    "Ghana": {
+        "cities": [
+            ["Atsiaman", 142],
+            ["Dome", 115],
+            ["Accra", 114],
+            ["Gbawe", 113],
+            ["Medina Estates", 71]
+        ]
+    },
+    "Thailand": {
+        "cities": [
+            ["Samut Sakhon", 129],
+            ["Ban Chang", 122],
+            ["Bang Mun Nak", 116],
+            ["Bang Phae", 116],
+            ["Bang Krathum", 114],
+            ["Bang Racham", 111],
+            ["Samut Prakan", 108],
+            ["Ko Samui", 108]
+        ]
+    },
+    "Iraq": {
+        "cities": [
+            ["Baghdad", 119]
+        ]
+    },
+    "Georgia": {
+        "cities": [
+            ["Zugdidi", 115],
+            ["Akhaltsikhe", 97],
+            ["Batumi", 76],
+            ["Rust’avi", 72],
+            ["Tbilisi", 62],
+            ["Kutaisi", 55],
+            ["Telavi", 51]
+        ]
+    },
+    "Macedonia": {
+        "cities": [
+            ["Veles", 174],
+            ["Bitola", 123],
+            ["Kamenjane", 80],
+            ["Kičevo", 79],
+            ["Tetovo", 74],
+            ["Gostivar", 72],
+            ["Skopje", 69],
+            ["Resen", 68]
+        ]
+    },
+    "Macao": {
+        "cities": [
+            ["Macau", 38]
+        ]
+    },
+    "Slovakia": {
+        "cities": [
+            ["Nové Mesto nad Váhom", 500],
+            ["Ružomberok", 78],
+            ["Lučenec", 72],
+            ["Brezno", 68],
+            ["Žilina", 68],
+            ["Púchov", 68],
+            ["Zvolen", 65],
+            ["Banská Bystrica", 65]
+        ]
+    },
+    "Nepal": {
+        "cities": [
+            ["Tulsīpur", 184],
+            ["Dhankutā", 144],
+            ["Nepalgunj", 135],
+            ["Kathmandu", 107],
+            ["Birātnagar", 69],
+            ["Hetauda", 50],
+            ["Pokhara", 41]
+        ]
+    },
+    "United Kingdom": {
+        "cities": [
+            ["Kingswood", 500],
+            ["Dorchester", 114],
+            ["Bournemouth", 104],
+            ["Congleton", 99],
+            ["Widnes", 78],
+            ["Newbury", 73],
+            ["Portsmouth", 71],
+            ["Battersea", 70]
+        ]
+    },
+    "Kuwait": {
+        "cities": [
+            ["Bayān", 303],
+            ["Ar Rābiyah", 71],
+            ["Şabāḩ as Sālim", 67],
+            ["Al Jahrā’", 66],
+            ["Al Faḩāḩīl", 63],
+            ["Al Aḩmadī", 38],
+            ["Ar Rumaythīyah", 23]
+        ]
+    },
+    "Italy": {
+        "cities": [
+            ["Venaria Reale", 105],
+            ["San Lazzaro", 99],
+            ["Bologna", 99],
+            ["Bussolengo", 97],
+            ["Saluzzo", 94],
+            ["Piacenza", 91],
+            ["Modena", 91],
+            ["Casalecchio di Reno", 89]
+        ]
+    },
+    "Romania": {
+        "cities": [
+            ["Sector 1", 116],
+            ["Olteniţa", 116],
+            ["Sector 4", 109],
+            ["Sector 2", 101],
+            ["Popeşti-Leordeni", 90],
+            ["Rădăuți", 86],
+            ["Buftea", 86],
+            ["Balş", 84]
+        ]
+    },
+    "Philippines": {
+        "cities": [
+            ["Butuan", 73],
+            ["San Fernando", 67],
+            ["Port Area", 39],
+            ["Caloocan City", 37],
+            ["San Simon", 35],
+            ["Calumpang", 32],
+            ["Pasig City", 24]
+        ]
+    },
+    "Rwanda": {
+        "cities": [
+            ["Kigali", 23]
+        ]
+    },
+    "Morocco": {
+        "cities": [
+            ["Marrakesh", 27]
+        ]
+    },
+    "Taiwan": {
+        "cities": [
+            ["Daxi", 161],
+            ["Lugu", 157],
+            ["Douliu", 153],
+            ["Zhongxing New Village", 139],
+            ["Taoyuan City", 134],
+            ["Nantou", 134],
+            ["Taichung", 117],
+            ["Hsinchu", 114]
+        ]
+    },
+    "Hungary": {
+        "cities": [
+            ["Dunaharaszti", 88],
+            ["Miskolc", 80],
+            ["Hajdúböszörmény", 72],
+            ["Kazincbarcika", 72],
+            ["Dunaújváros", 70],
+            ["Nyíregyháza", 70],
+            ["Székesfehérvár", 68],
+            ["Szolnok", 68]
+        ]
+    },
+    "Japan": {
+        "cities": [
+            ["Kamogatachō-kamogata", 155],
+            ["Sōja", 124],
+            ["Hita", 109],
+            ["Kurashiki", 102],
+            ["Kannabechō-yahiro", 99],
+            ["Kisai", 97],
+            ["Kasaoka", 97],
+            ["Suzuka", 95]
+        ]
+    },
+    "Vietnam": {
+        "cities": [
+            ["Thái Nguyên", 156],
+            ["Việt Trì", 136],
+            ["Thị Xã Phú Mỹ", 132],
+            ["Phủ Lý", 109],
+            ["Hanoi", 106],
+            ["Vinh", 65],
+            ["Quảng Ngãi", 62],
+            ["Thái Bình", 60]
+        ]
+    },
+    "United States": {
+        "cities": [
+            ["North Highlands", 500],
+            ["Anchorage", 108],
+            ["Aberdeen", 97],
+            ["Manteca", 94],
+            ["Hanford", 89],
+            ["Phoenix", 86],
+            ["Ewing", 85],
+            ["Fresno", 81]
+        ]
+    },
+    "Bangladesh": {
+        "cities": [
+            ["Paltan", 176]
+        ]
+    },
+    "Hong Kong": {
+        "cities": [
+            ["Hong Kong", 50],
+            ["Tai Po", 38],
+            ["Tsuen Wan", 38],
+            ["Yuen Long Kau Hui", 35],
+            ["Tuen Mun", 30],
+            ["Sha Tin", 29],
+            ["Kowloon", 28],
+            ["Tung Chung", 27]
+        ]
+    },
+    "Sri Lanka": {
+        "cities": [
+            ["Kolonnawa", 72],
+            ["Colombo", 50],
+            ["Jaffna", 11]
+        ]
+    },
+    "San Marino": {
+        "cities": [
+            ["San Marino", 26]
+        ]
+    },
+    "Cambodia": {
+        "cities": [
+            ["Koh Kong", 65]
+        ]
+    },
+    "South Korea": {
+        "cities": [
+            ["Yeonggwang", 137],
+            ["Pubal", 114],
+            ["Waegwan", 104],
+            ["Taesal-li", 104],
+            ["Yeoju", 99],
+            ["Gunsan", 97],
+            ["Yeongdong", 95],
+            ["Hwaseong-si", 91]
+        ]
+    },
+    "Ethiopia": {
+        "cities": [
+            ["Addis Ababa", 61]
+        ]
+    },
+    "Bosnia and Herzegovina": {
+        "cities": [
+            ["Sarajevo", 153],
+            ["Banja Luka", 74],
+            ["Bihać", 74],
+            ["Tuzla", 72],
+            ["Gračanica", 56],
+            ["Mostar", 53],
+            ["Travnik", 46],
+            ["Bosanska Krupa", 42]
+        ]
+    },
+    "Monaco": {
+        "cities": [
+            ["Monaco", 29]
+        ]
+    },
+    "Slovenia": {
+        "cities": [
+            ["Celje", 65],
+            ["Maribor", 63],
+            ["Novo Mesto", 59],
+            ["Ptuj", 57],
+            ["Kranj", 57],
+            ["Trbovlje", 53],
+            ["Ljubljana", 46],
+            ["Koper", 18]
+        ]
+    },
+    "Laos": {
+        "cities": [
+            ["Ban Houakhoua", 65]
+        ]
+    },
+    "Austria": {
+        "cities": [
+            ["Gries", 79],
+            ["Jakomini", 72],
+            ["Linz", 59],
+            ["Andritz", 58],
+            ["Klagenfurt am Wörthersee", 57],
+            ["Sankt Pölten", 53],
+            ["Salzburg", 53],
+            ["Wetzelsdorf", 51]
+        ]
+    },
+    "Russian Federation": {
+        "cities": [
+            ["Bikin", 177],
+            ["Chernogorsk", 105],
+            ["Penza", 102],
+            ["Chita", 93],
+            ["Zyablikovo", 91],
+            ["Tambov", 90],
+            ["Vostryakovo", 75],
+            ["Metrogorodok", 72]
+        ]
+    },
+    "Czechia": {
+        "cities": [
+            ["Dvůr Králové nad Labem", 89],
+            ["Šumperk", 86],
+            ["Hradec Králové", 83],
+            ["Zlín", 82],
+            ["Bohumín", 81],
+            ["Jirkov", 78],
+            ["Litvínov", 78],
+            ["Uherské Hradiště", 74]
+        ]
+    },
+    "Myanmar": {
+        "cities": [
+            ["Yangon", 65],
+            ["Tachilek", 50]
+        ]
+    },
+    "Croatia": {
+        "cities": [
+            ["Centar", 69],
+            ["Koprivnica", 67],
+            ["Slavonski Brod", 67],
+            ["Sisak", 66],
+            ["Zagreb", 59],
+            ["Osijek", 53],
+            ["Pula", 40],
+            ["Stenjevec", 38]
+        ]
+    },
+    "Ukraine": {
+        "cities": [
+            ["Poltava", 88],
+            ["Novomoskovs’k", 67],
+            ["Pidhorodne", 62],
+            ["Chornomors’k", 58],
+            ["Kharkiv", 54],
+            ["Zdolbuniv", 53],
+            ["Uzhgorod", 52],
+            ["Bilhorod-Dnistrovskyi", 51]
+        ]
+    },
+    "Israel": {
+        "cities": [
+            ["Ramat Gan", 91],
+            ["Reẖovot", 80],
+            ["Bat Yam", 80],
+            ["Gedera", 80],
+            ["Hadera", 77],
+            ["Petaẖ Tiqwa", 71],
+            ["Yehud", 68],
+            ["Netanya", 68]
+        ]
+    },
+    "Ireland": {
+        "cities": [
+            ["Luimneach", 68],
+            ["Tralee", 65],
+            ["Gaillimh", 63],
+            ["Athlone", 59],
+            ["Blanchardstown", 56],
+            ["Leixlip", 56],
+            ["Carlow", 53],
+            ["Naas", 52]
+        ]
+    },
+    "Greece": {
+        "cities": [
+            ["Kozáni", 102],
+            ["Políchni", 58],
+            ["Sykiés", 57],
+            ["Kalamariá", 57],
+            ["Aígio", 56],
+            ["Elefsína", 53],
+            ["Lárisa", 52],
+            ["Pátra", 50]
+        ]
+    },
+    "Kyrgyzstan": {
+        "cities": [
+            ["Khalmion", 152],
+            ["Osh", 41],
+            ["Bishkek", 3]
+        ]
+    },
+    "South Africa": {
+        "cities": [
+            ["Vanderbijlpark", 258],
+            ["Midrand", 234],
+            ["Vereeniging", 102],
+            ["Sasolburg", 68],
+            ["Soweto", 66],
+            ["Secunda", 63],
+            ["Hendrina", 63],
+            ["eMbalenhle", 61]
+        ]
+    },
+    "Kazakhstan": {
+        "cities": [
+            ["Kandyagash", 120],
+            ["Aktobe", 109],
+            ["Almaty", 80],
+            ["Otegen Batyra", 67],
+            ["Aktau", 51],
+            ["Nur-Sultan", 25],
+            ["Aqsay", 23],
+            ["Karagandy", 21]
+        ]
+    },
+    "Bulgaria": {
+        "cities": [
+            ["Dimitrovgrad", 107],
+            ["Popovo", 103],
+            ["Vidin", 91],
+            ["Silistra", 84],
+            ["Sandanski", 80],
+            ["Petrich", 76],
+            ["Karlovo", 75],
+            ["Pazardzhik", 74]
+        ]
+    },
+    "Cyprus": {
+        "cities": [
+            ["Famagusta", 68],
+            ["Nicosia", 64],
+            ["Larnaca", 56],
+            ["Limassol", 38]
+        ]
+    },
+    "Holy_See": {
+        "cities": [
+            ["Vatican City", 85]
+        ]
+    },
+    "Malaysia": {
+        "cities": [
+            ["Petaling Jaya", 79],
+            ["Kota Bharu", 73],
+            ["Johor Bahru", 64],
+            ["Shah Alam", 62],
+            ["Kampung Baharu Nilai", 60],
+            ["Kampung Pasir Gudang Baru", 59],
+            ["Putrajaya", 59],
+            ["Kuala Selangor", 59]
+        ]
+    },
+    "Switzerland": {
+        "cities": [
+            ["Onex", 56],
+            ["Lugano", 47],
+            ["Adliswil", 46],
+            ["Zürich (Kreis 11) / Oerlikon", 44],
+            ["Herisau", 38],
+            ["Uster", 37],
+            ["Zürich (Kreis 10)", 36],
+            ["Seen (Kreis 3)", 35]
+        ]
+    },
+    "Cabo_Verde": {
+        "cities": [
+            ["Praia", 40],
+            ["Santa Maria", 33]
+        ]
+    },
+    "Montenegro": {
+        "cities": [
+            ["Bijelo Polje", 175],
+            ["Pljevlja", 129],
+            ["Nikšić", 45],
+            ["Bar", 26],
+            ["Budva", 8]
+        ]
+    },
+    "Mongolia": {
+        "cities": [
+            ["Ulan Bator", 115],
+            ["Darhan", 63],
+            ["Зуунмод", 31]
+        ]
+    },
+    "Peru": {
+        "cities": [
+            ["Lima", 80],
+            ["Santiago de Surco", 79],
+            ["San Isidro", 56],
+            ["Callao", 42]
+        ]
+    },
+    "Martinique": {
+        "cities": [
+            ["Le Robert", 70],
+            ["Le Lamentin", 48],
+            ["Fort-de-France", 46],
+            ["Ducos", 33]
+        ]
+    },
+    "Sweden": {
+        "cities": [
+            ["Lidingö", 500],
+            ["Skellefteå", 111],
+            ["Piteå", 69],
+            ["Örnsköldsvik", 57],
+            ["Östersund", 49],
+            ["Linköping", 47],
+            ["Solna", 45],
+            ["Sundsvall", 45]
+        ]
+    },
+    "Iceland": {
+        "cities": [
+            ["Kópavogur", 90],
+            ["Hafnarfjörður", 71],
+            ["Akureyri", 26],
+            ["Reykjavík", 9]
+        ]
+    },
+    "Chile": {
+        "cities": [
+            ["La Pintana", 87],
+            ["Rancagua", 82],
+            ["Santiago", 74],
+            ["Lota", 72],
+            ["Valparaíso", 72],
+            ["Puerto Aysén", 70],
+            ["Arica", 68],
+            ["Puente Alto", 68]
+        ]
+    },
+    "Mayotte": {
+        "cities": [
+            ["Mamoudzou", 51]
+        ]
+    },
+    "Spain": {
+        "cities": [
+            ["El Prat de Llobregat", 91],
+            ["Pozuelo de Alarcón", 90],
+            ["Málaga", 86],
+            ["Errenteria", 78],
+            ["Oria", 63],
+            ["Santutxu", 63],
+            ["Alboraya", 61],
+            ["Valencia", 61]
+        ]
+    },
+    "Luxembourg": {
+        "cities": [
+            ["Esch-sur-Alzette", 57],
+            ["Luxembourg", 55]
+        ]
+    },
+    "Guatemala": {
+        "cities": [
+            ["Guatemala City", 59]
+        ]
+    },
+    "Belarus": {
+        "cities": [
+            ["Brest", 113],
+            ["Horad Zhodzina", 73],
+            ["Mahilyow", 61],
+            ["Minsk", 51],
+            ["Rechytsa", 26],
+            ["Baranovichi", 8]
+        ]
+    },
+    "Saint Martin": {
+        "cities": [
+            ["Marigot", 55]
+        ]
+    },
+    "Albania": {
+        "cities": [
+            ["Tirana", 68]
+        ]
+    },
+    "Colombia": {
+        "cities": [
+            ["Carepa", 500],
+            ["Chía", 63],
+            ["Soacha", 54],
+            ["Bello", 53],
+            ["Copacabana", 46],
+            ["Itagüí", 46],
+            ["La Estrella", 46],
+            ["Bogotá", 46]
+        ]
+    },
+    "Kenya": {
+        "cities": [
+            ["Busia", 66],
+            ["Nakuru", 39],
+            ["Nairobi", 20]
+        ]
+    },
+    "Curaçao": {
+        "cities": [
+            ["Willemstad", 59]
+        ]
+    },
+    "Australia": {
+        "cities": [
+            ["Hornsby", 42],
+            ["Darwin", 42],
+            ["Quakers Hill", 42],
+            ["Wollongong", 40],
+            ["Saint Ives", 39],
+            ["Springfield Lakes", 33],
+            ["Bathurst", 31],
+            ["Tamworth", 30]
+        ]
+    },
+    "Kosovo": {
+        "cities": [
+            ["Peć", 62],
+            ["Gjilan", 52],
+            ["Shtime", 35],
+            ["Prizren", 34],
+            ["Kosovo Polje", 28],
+            ["Mitrovicë", 20],
+            ["Pristina", 13],
+            ["Glogovac", 13]
+        ]
+    },
+    "Paraguay": {
+        "cities": [
+            ["Ciudad del Este", 71],
+            ["Lambaré", 63]
+        ]
+    },
+    "Singapore": {
+        "cities": [
+            ["Woodlands", 34],
+            ["Singapore", 21]
+        ]
+    },
+    "Gibraltar": {
+        "cities": [
+            ["Gibraltar", 51]
+        ]
+    },
+    "Guadeloupe": {
+        "cities": [
+            ["Pointe-à-Pitre", 70],
+            ["Baie-Mahault", 39],
+            ["Sainte-Rose", 20],
+            ["Basse-Terre", 8]
+        ]
+    },
+    "Costa Rica": {
+        "cities": [
+            ["Curridabat", 35]
+        ]
+    },
+    "Turkmenistan": {
+        "cities": [
+            ["Ashgabat", 34]
+        ]
+    },
+    "Brazil": {
+        "cities": [
+            ["Limeira", 57],
+            ["Carapicuíba", 53],
+            ["São João da Boa Vista", 50],
+            ["São José do Rio Preto", 50],
+            ["São Paulo", 46],
+            ["Guaratinguetá", 46],
+            ["Jacareí", 45],
+            ["Diadema", 42]
+        ]
+    },
+    "Malta": {
+        "cities": [
+            ["Mosta", 33],
+            ["Valletta", 24],
+            ["Żabbar", 15],
+            ["Birkirkara", 9],
+            ["Qormi", 8]
+        ]
+    },
+    "Norway": {
+        "cities": [
+            ["Stavanger", 79],
+            ["Bergen", 73],
+            ["Askøy", 72],
+            ["Ytrebygda", 63],
+            ["Drammen", 61],
+            ["Oslo", 59],
+            ["Moss", 56],
+            ["Kristiansand", 56]
+        ]
+    },
+    "Liberia": {
+        "cities": [
+            ["Monrovia", 24]
+        ]
+    },
+    "Canada": {
+        "cities": [
+            ["Chambly", 130],
+            ["Edmonton", 82],
+            ["Prince George", 53],
+            ["Vernon", 50],
+            ["Sherwood Park", 50],
+            ["Airdrie", 44],
+            ["Port Alberni", 34],
+            ["Red Deer", 33]
+        ]
+    },
+    "New Zealand": {
+        "cities": [
+            ["Ashburton", 71],
+            ["Christchurch", 50],
+            ["Timaru", 48],
+            ["Napier", 38],
+            ["North Shore", 36],
+            ["Nelson", 21],
+            ["Whangarei", 21],
+            ["Hamilton", 17]
+        ]
+    },
+    "Jordan": {
+        "cities": [
+            ["Zarqa", 43],
+            ["Wādī as Sīr", 29],
+            ["Irbid", 28],
+            ["Al Jubayhah", 20],
+            ["Aqaba", 20],
+            ["Saḩāb", 17],
+            ["Amman", 17]
+        ]
+    },
+    "Azerbaijan": {
+        "cities": [
+            ["Baku", 55],
+            ["Sumqayıt", 18]
+        ]
+    },
+    "Trinidad and Tobago": {
+        "cities": [
+            ["Laventille", 45],
+            ["Marabella", 30]
+        ]
+    },
+    "Dominican Republic": {
+        "cities": [
+            ["Puerto Plata", 15]
+        ]
+    },
+    "Portugal": {
+        "cities": [
+            ["Alcobaça", 319],
+            ["Évora", 169],
+            ["Funchal", 33],
+            ["Portimão", 23],
+            ["Faro", 20],
+            ["Lisbon", 17],
+            ["Algueirão", 17],
+            ["Canidelo", 14]
+        ]
+    },
+    "New Caledonia": {
+        "cities": [
+            ["Nouméa", 18]
+        ]
+    },
+    "French Guiana": {
+        "cities": [
+            ["Cayenne", 34],
+            ["Kourou", 23],
+            ["Matoury", 5]
+        ]
+    },
+    "Jersey": {
+        "cities": [
+            ["Saint Helier", 45]
+        ]
+    },
+    "Finland": {
+        "cities": [
+            ["Kaarela", 79],
+            ["Kallio", 51],
+            ["Helsinki", 38],
+            ["Munkkiniemi", 35],
+            ["Lohja", 31],
+            ["Vantaa", 28],
+            ["Vuosaari", 27],
+            ["Tampere", 26]
+        ]
+    },
+    "Liechtenstein": {
+        "cities": [
+            ["Vaduz", 12]
+        ]
+    },
+    "Réunion": {
+        "cities": [
+            ["Saint-Joseph", 22],
+            ["Saint-Louis", 22],
+            ["Piton Saint-Leu", 22],
+            ["Saint-Pierre", 19],
+            ["Saint-Denis", 16],
+            ["Saint-Paul", 15],
+            ["Le Tampon", 8],
+            ["Sainte-Suzanne", 1]
+        ]
+    },
+    "Mozambique": {
+        "cities": [
+            ["Maputo", 43]
+        ]
+    },
+    "Andorra": {
+        "cities": [
+            ["les Escaldes", 71],
+            ["Andorra la Vella", 65]
+        ]
+    },
+    "Seychelles": {
+        "cities": [
+            ["Victoria", 17]
+        ]
+    },
+    "Estonia": {
+        "cities": [
+            ["Tallinn", 27],
+            ["Kohtla-Järve", 26],
+            ["Sillamäe", 12],
+            ["Tartu", 10],
+            ["Narva", 10],
+            ["Viljandi", 8]
+        ]
+    },
+    "Moldova": {
+        "cities": [
+            ["Ungheni", 18]
+        ]
+    },
+    "Bonaire": {
+        "cities": [
+            ["Kralendijk", 19]
+        ]
+    },
+    "Brunei Darussalam": {
+        "cities": [
+            ["Tutong", 11],
+            ["Bandar Seri Begawan", 10],
+            ["Kuala Belait", 10]
+        ]
+    },
+    "Lithuania": {
+        "cities": [
+            ["Šeškinė", 42],
+            ["Šilainiai", 38],
+            ["Vilnius", 9],
+            ["Dainava (Kaunas)", 6]
+        ]
+    },
+    "Argentina": {
+        "cities": [
+            ["Villa Constitución", 42],
+            ["Villa Santa Rita", 35],
+            ["General Pico", 20],
+            ["Mendoza", 14],
+            ["Santa Rosa", 9]
+        ]
+    },
+    "Denmark": {
+        "cities": [
+            ["Copenhagen", 53],
+            ["Roskilde", 27],
+            ["Århus", 15],
+            ["Aalborg", 13],
+            ["Odense", 13],
+            ["Greve", 5]
+        ]
+    },
+    "Latvia": {
+        "cities": [
+            ["Liepāja", 8],
+            ["Riga", 3]
+        ]
+    },
+    "Aruba": {
+        "cities": [
+            ["Oranjestad", 5]
+        ]
+    },
+    "Venezuela": {
+        "cities": [
+            ["Ciudad Guayana", 15]
+        ]
+    }
+}
+    

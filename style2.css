@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header.others {
+    background: #0078D7;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+main section h2 { color: #0078D7; }
+main a {
+    color: #0078D7;
+    text-decoration: none;
+}
+main a:hover {
+    text-decoration: underline;
+}
+.footer2{
+    text-align: center;
+    background: #f4f4f4;
+    padding: 10px 20px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+.profile-details { flex: 1; }
+.back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #0078D7;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 16px;
+}
+.back-button:hover {
+    background: #005bb5;
+    text-decoration: none;
+}
+#documentation table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#documentation table, #documentation th, td { border: 1px solid #ddd;}
+#documentation th, td {
+    padding: 10px;
+    text-align: left;
+}
+#documentation th { background: #f4f4f4; }
